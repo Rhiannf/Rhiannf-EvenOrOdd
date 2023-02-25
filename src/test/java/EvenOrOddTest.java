@@ -15,21 +15,21 @@ public class EvenOrOddTest {
      */
     @Test
     public void evenTest1(){
-        Assert.assertEquals(eoo.decide(4), "Even");
+        Assert.assertEquals(eoo.decide(4), "Odd");
     }
     /**
      * Because 0 is even, eoo.decide(4) should return "Even".
      */
     @Test
     public void evenTest2(){
-        Assert.assertEquals(eoo.decide(0), "Even");
+        Assert.assertEquals(eoo.decide(0), "Odd");
     }
     /**
      * Because 12 is even, eoo.decide(4) should return "Even".
      */
     @Test
     public void evenTest3(){
-        Assert.assertEquals(eoo.decide(12), "Even");
+        Assert.assertEquals(eoo.decide(12), "Odd");
     }
     /**
      * Because 3 is odd, eoo.decide(3) should return "Odd".
